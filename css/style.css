@@ -1,0 +1,36 @@
+body {
+	padding-top: 50px; 
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	list-style-position: outside;
+	line-height: 25px;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+
+.tip {
+	color: #1c86f2; */
+    font-size: 11px;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.empty {
+	margin-bottom: 15px;
+}
+
+.fade-enter-active {
+  transition: opacity .5s
+}
+.fade-enter /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0
+}
